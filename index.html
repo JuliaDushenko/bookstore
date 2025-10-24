@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookStore — Веб-магазин книг</title>
+  <meta name="description" content="BookStore — простий прототип веб-книгарні. Лабораторна №1.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container">
+    <h1>📚 BookStore</h1>
+    <nav>
+      <a href="#about">Про проєкт</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>Про проєкт</h2>
+      <p>
+        Це стартова сторінка прототипу веб-магазину книг для Лабораторної №1.
+        Далі ми підключимо бекенд на <strong>Python (Django + Django REST Framework)</strong>,
+        клієнт на <strong>React</strong> і базу даних <strong>PostgreSQL</strong>.
+      </p>
+    </section>
+
+    <section id="catalog">
+      <h2>Популярні книги</h2>
+      <div id="book-grid" class="grid"></div>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакти</h2>
+      <p>Е-mail: hello@bookstore.example<br> Instagram: @bookstore.store</p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© 2025 BookStore — навчальний проєкт</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
