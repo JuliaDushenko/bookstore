@@ -1,8 +1,9 @@
 const demoBooks = [
-  { id: 1, title: "Тіні забутих предків", author: "Михайло Коцюбинський", price: 199, tag: "Класика", img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600&auto=format&fit=crop" },
-  { id: 2, title: "Місто", author: "Валер'ян Підмогильний", price: 249, tag: "Українська література", img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=600&auto=format&fit=crop" },
-  { id: 3, title: "Захар Беркут", author: "Іван Франко", price: 159, tag: "Історичний роман", img: "https://images.unsplash.com/photo-1526312426976-593c2586f3e1?q=80&w=600&auto=format&fit=crop" },
-  { id: 4, title: "Кобзар", author: "Тарас Шевченко", price: 299, tag: "Поезія", img: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=600&auto=format&fit=crop" }
+  { id: 1, title: "Тіні забутих предків", author: "Михайло Коцюбинський", price: 199, tag: "Класика", img: "https://cdn.planetakino.ua/3811_shadows-of-forgotten_1964/Media/Posters/vertical/opt_b1c8d4fa-b159-409c-8d12-1c0f898ec667.webp" },
+  { id: 2, title: "Місто", author: "Валер'ян Підмогильний", price: 249, tag: "Українська література", img: "https://i.mbooks.com.ua/media/books/67e7a62c-318f-4f99-b128-c57a360e846f/covers/None/a34da7dd7fb0435db59eb064d1ce121c.jpeg" },
+ { id: 3, title: "Захар Беркут", author: "Іван Франко", price: 159, tag: "Історичний роман",
+  img: "https://i.mbooks.com.ua/media/books/fceef7f7-324f-4ba4-b971-a65f76f5479d/covers/None/ed2c282df9aa4cdf8145f44fd1aee242.jpeg" },
+  { id: 4, title: "Кобзар", author: "Тарас Шевченко", price: 299, tag: "Поезія", img: "https://book24.ua/upload/iblock/3e0/3e00362c332ffb92c76522b1a135ec9f.png" }
 ];
 
 const grid = document.getElementById("book-grid");
